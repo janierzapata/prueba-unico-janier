@@ -1,0 +1,47 @@
+.container-table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-table{
+    width: 90% !important;
+    height: 90% !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.card-body{
+    width: 100%;
+}
+
+
+.actions {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+
+textarea, input{
+    background-color: #f2f2f2 !important;
+    overflow: hidden !important;
+    width: 100%;
+    height: auto;
+}
+
+textarea{
+    resize: none;
+    height: 7rem;
+}
+
+.alert{
+    width: 90%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}

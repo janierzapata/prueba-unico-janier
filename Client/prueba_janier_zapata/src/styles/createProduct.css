@@ -1,0 +1,33 @@
+.actions {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+
+textarea,
+input {
+  background-color: #f2f2f2 !important;
+  overflow: hidden !important;
+  width: 100%;
+  height: auto;
+}
+
+textarea {
+  resize: none;
+  height: 7rem;
+}
+
+td, th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.productDescription {
+  width: 25%;
+}
+
+.groupactions button {
+    margin-left: 1rem;
+}

@@ -1,0 +1,41 @@
+.sidebar {
+  background-color: #3d43497c;
+  color: white !important;
+  height: 100vh;
+  width: 16.2%;
+  position: fixed;
+  
+}
+
+.side-navigation-panel-select-option-text {
+  color: white !important;
+}
+
+.side-navigation-panel-select-option-text {
+  color: #343a40 !important;
+}
+
+.sidebarHeader {
+  background-color: #4f4f50;
+  color: white !important;
+}
+.sidebarHeader h1 {
+  text-wrap: balance;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1.5rem 0;
+  text-align: center;
+
+}
+
+
+
+
+.sidebarFooter {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 6vh;
+}
+
+

@@ -1,0 +1,128 @@
+html {
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+}
+.container-store {
+  width: 100%;
+  height: 100%;
+}
+
+.container-store h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.container-products {
+  width: 100%;
+  height: auto;
+  margin: 2rem 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card-product {
+  width: 20rem !important;
+  margin: 1rem;
+}
+
+.card-img-top {
+  width: 100% !important;
+  height: 10rem;
+  object-fit: cover;
+}
+
+.title-product {
+  font-size: 2rem !important;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text-product {
+  font-size: 1rem !important;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.controllers {
+  width: 80%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search input {
+  width: 20rem;
+  height: 3rem;
+  border-radius: 1rem;
+  border: 1px solid #312f2f74;
+  padding: 0 1rem;
+}
+
+.search button {
+  color: #fff;
+  height: 3rem;
+  margin-left: 1rem;
+}
+
+.sort {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sort label {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+.sort select {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 1rem;
+  border: 0.5px solid #312f2f74;
+  padding: 0 1rem;
+}
+
+.sort select:focus {
+  outline: none;
+}
+.sort select option {
+  font-size: 1rem;
+}
+
+.modal-dialog {
+  max-width: 50rem !important;
+  width: 50rem !important;
+}
+
+.modal-body {
+    padding:  0 2rem !important;
+    margin-top: 2rem;
+}
+
+.card-body-modal{
+    margin:  0 2rem  !important;
+}
+
+h3.modal-title{
+    margin-top: 2rem !important;
+    font-size: 2.5rem !important;
+    color: #272728 !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+h5.product-detail-card{
+    font-size: 2rem !important;
+    color: #272728 !important;
+    font-weight: bold;
+}
